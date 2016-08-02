@@ -1,6 +1,6 @@
 # External gems
 gems:
-  - jekyll-archives # Sorry, not GitHub pages friendly!
+#  - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
 
 exclude:
@@ -10,7 +10,7 @@ exclude:
 title: Foodz
 subtitle: "Easy Recipes, for the modern human"
 email: escalas5@gmail.com
-name: Ben Centra
+name: Miguel Escalante
 description: > 
   Recipes that I like and a way to store them. 
 baseurl: "/foodz/" # the subpath of your site, e.g. /blog/
@@ -24,14 +24,14 @@ paginate: 5
 paginate_path: "/page:num/"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
-jekyll-archives: 
-  enabled: 
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
+# jekyll-archives: 
+#   enabled: 
+#     - categories
+#     - tags
+#   layout: 'archive'
+#   permalinks:
+#     category: '/category/:name/'
+#     tag: '/tag/:name/'
 
 # Disqus comments
 disqus_shortname: bencentra
